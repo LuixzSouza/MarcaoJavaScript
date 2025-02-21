@@ -1,2 +1,8 @@
-console.log("teste")
-console.log([1,2,3].filter((num) => num > 1))
+const menus = document.getElementsByClassName("item-menu");
+console.log(menus);
+
+const arrayMennu = Array.from(menus)
+
+arrayMennu.forEach((menus) => {
+    console.log(menus.textContent)
+})

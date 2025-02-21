@@ -55,6 +55,7 @@ Array.from("123");                          // ["1", "2", "3"] - cria um array a
 "JavaScript Dev".lastIndexOf("Dev");        // 11 - última posição de "Dev"
 "JavaScript Dev".search("Dev");             // 11 - posição de "Dev" (busca com regex)
 "JavaScript Dev".includes("Dev");           // true - verifica se contém "Dev"
+"1".parseInt()                              // 1 - traforma String em numero
 
 {/* Utilizando Data */}
 const date = new Date();                    // Cria um objeto Date com a data/hora atuais
